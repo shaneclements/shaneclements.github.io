@@ -7,43 +7,98 @@
     
     <style>
         
-        nav {background-color:slategray}
-        nav {color: azure}
+        nav {
+            background-color: lightblue;}
+        
+        #content {
+            width: 70%;
+            margin: auto;}
+        
+        #dry-oar-logo {
+            border-width: thick;
+            border-color: antiquewhite;
+            position: absolute;
+            left: 75%;
+            top: 10px;}
+     
         
         #section1 {
-            background-color: mediumslateblue
+            background-color: #F6FD40;
+            height: auto;}
+        
+ 
+        #segment1-img {
+            margin: 6px;
         }
-         #section2 {
-            background-color: darkgray}
+        #dry-oar-philosophy-segment {
+            margin: 6px;
+            float: right;
+            width: 70%;
+        }
+        
+        #section2 {
+            background-color: darkgray;
+            height: auto;
+            }
+        
+        #rapids-img {
+            margin: 6px;
+            float: right;
+            width: 30%;
+        }
+        
+        #title {
+            font-size: 350%;}
         
         h1,h2,h3,h4,h5,h6 {
-     color: #1425aD;
-} 
+            color: #A50010;
+            font-family: forte, serif;
+            font-size: auto;}
         
+        #nav-list {
+            color: white;}
+    
+        
+        #our-invitation-segment {
+            text-align: center;}
+ 
+        p {
+            font-family: Segoe Print; }
+    
         
     </style>
     
 </head>
     
     <body>
+        <div id="content">
         
-    <h1>Dry Oar Rafting</h1>
-        <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt=" Logo">
+    <h1 id="title">Dry Oar Rafting</h1>
+            
+            
+        <img id="dry-oar-logo" src="http://brothert.net/dryoar/images/dryoarlogo.png" alt=" Logo">
         
      <nav>
-            <ul>
+        
+        <ul id="nav-list">
             <li>Home</li>
             <li>Rivers</li>
             <li>FAQ</li>
             <li> Bolg</li>
             <li>Rates/Dates</li>
             <li>Contact Us</li>
-            </ul>
+         </ul>
+         
     </nav>
-
-        <img src="http://brothert.net/dryoar/images/river-wide.JPG" alt="banner image" height="175">
-        
+            
+            <div id="banner-div">
+            <img id="banner-img" src="http://brothert.net/dryoar/images/river-wide.JPG" alt="banner image" width="100%">
+            </div>
+            
     <section id="section1">
+        
+        <div id="dry-oar-philosophy-segment">
+            
         <h2>
         Remember the "Dry Oar" Philosophy
         </h2>
@@ -51,28 +106,39 @@
     <p>
         We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love. 
     </p>
-    
-            
-            <img src="http://brothert.net/dryoar/images/salmon-boat-beach.jpg" alt="rafter's parking" height="200">
+
+        </div>
+        
+            <img id="section1-img" src="http://brothert.net/dryoar/images/salmon-boat-beach.jpg" alt="rafter's parking" height="200" margin="6px">
+        
+        
     </section>
 
     <section id="section2"> 
-            <img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="rapids image" height="200">
         
+        <div>    
+        <img id="rapids-img" src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="rapids image" >
+        </div>
+        
+        <div id="rapids-segment">
         <h2> Rapids</h2>
-   <p>
+        <p>
         That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.
- </p>
+        </p>
+        </div>
+        
   </section>
         
+            <div id="our-invitation-segment">
         <h2> Our Inviation</h2>
         <p>
         We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!
         </p>
-        
+            </div>
 
         
         <p>&copy; 2015 Dry Oar || Shane Clements </p>
-    
+            
+    </div>
     </body>
 </html>
