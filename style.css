@@ -7,22 +7,25 @@ nav {
             margin: 0 auto;}
         
         #dry-oar-logo {
+            display: border;
             border-width: thick;
             border-color: antiquewhite;
-            position: absolute;
-            left: 75%;
-            top: 10px;}
+            background-color: white
+            }
 
         nav > ul {
             list-style: none;
             display: flex;
-            flex-flow: row wrap;
-            line-height: 3em;
+            flex-flow: row wrap;     
+            margin-top: -88px;
+            line-height: 75px;
+            padding-left: 110px;
         }
 
         nav li {
             flex: 1 1 8em;
             text-align: center;
+            
         }
 
         nav a: link, nav a: visited{
