@@ -1,18 +1,24 @@
-nav {
-            background-color: lightblue;}
-        
+     
         #content {
             max-width: 940px;
             width: 90%;
             margin: 0 auto;}
+
+        img {
+    max-width: 100%;
+}
         
-        #dry-oar-logo {
-            display: border;
-            border-width: thick;
-            border-color: antiquewhite;
-            background-color: white
+        #logo {
+            background-color: white;
+            width: 110px;
+            position: relative;
+            border: 2px solid #A50010;
             }
 
+        nav {
+            background-color: #A5BAEA;
+            font-size: 1.2em;
+            }
         nav > ul {
             list-style: none;
             display: flex;
@@ -23,9 +29,10 @@ nav {
         }
 
         nav li {
-            flex: 1 1 8em;
+            flex: 1 1 4em;
             text-align: center;
-            
+            font-family: segoe print;
+            margin: 1px;
         }
 
         nav a: link, nav a: visited{
@@ -46,30 +53,29 @@ nav {
             width: 100%
         }
         
+#section1, #section2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.leftcol, .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+}
+
+        
         #section1 {
-            background-color: #F6FD40;
-            height: auto;}
-        
- 
-        #segment1-img {
-            margin: 6px;
-        }
-        #dry-oar-philosophy-segment {
-            margin: 6px;
-            float: right;
-            width: 70%;
-        }
-        
-        #section2 {
-            background-color: darkgray;
+            background-color: #FAFE8D;
             height: auto;
-            }
+            border: .5px solid #A50010;}
+     
+        #section2 {
+            background-color: #A5BAEA;
+            height: auto;
+            border: .5px solid #A50010;}
         
-        #rapids-img {
-            margin: 6px;
-            float: right;
-            width: 30%;
-        }
         
         #title {
             font-size: 350%;}
@@ -85,6 +91,12 @@ nav {
         
         #our-invitation-segment {
             text-align: center;}
- 
+
+        .footer {
+            text-align: center;
+        }
+
         p {
             font-family: Segoe Print; }
+    
+    
