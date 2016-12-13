@@ -65,10 +65,10 @@
     flex-flow: row wrap;
     align-items: center;
 }
+
 .riversection {
     padding: 10px;
     height: auto;
-    border: .8px solid #A50010;
     margin-top: 10px;
 }
 
@@ -106,7 +106,12 @@
     height: 300px;
     border: .5px solid #A50010;
 }
-        
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
         
         #title {
             font-size: 350%;}
@@ -124,8 +129,7 @@
             text-align: center;}
 #aboutus {
     background-color: #FAFE8D;
-    width: 63%;
-    position: relative;
+    width: 64%;
     top: -775px;
     text-align: center;
     padding-left: 5px;
@@ -142,11 +146,14 @@
     width: 25%;
     height: 175px;
     text-align: center;
-    position: relative;
-    left: 75%;
-    top: -405px;
-    margin-bottom: 15px;
-    border: 4px solid #A50010;
+    border: 8px solid #A50010;
+    float: right;
+    clear: right;
+    margin-bottom: 18px       
+}
+#raftingjpg {
+    border: 3px solid #A50010;
+    
 }
 
         .footer {
